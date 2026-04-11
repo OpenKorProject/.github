@@ -88,7 +88,7 @@ OpenKor is **not monolithic**. Each service runs as its own process, manages its
 
 ```bash
 # Clone the repository
-git clone https://github.com/OpenKorProject/openkor.git
+git clone https://github.com/OpenKorProject/openkor-installer
 cd openkor
 
 # Configure environment variables
@@ -138,40 +138,7 @@ Versioning: URL-based — /v1/, /v2/
 | `POST /v1/vol/` | Create a new volume |
 | `POST /v1/vol/{id}/attach` | Attach a volume to a VM |
 
-Full API documentation: [`docs/api.md`](https://github.com/OpenKorProject/openkor/blob/main/docs/api.md)
-
----
-
-## Repository Structure
-
-```
-openkor/
-├── korauth/
-│   ├── cmd/
-│   ├── handler/
-│   ├── service/
-│   ├── repository/
-│   ├── model/
-│   └── migrations/
-├── korapi/
-│   ├── cmd/
-│   ├── middleware/
-│   └── proxy/
-├── korvm/
-│   ├── cmd/
-│   ├── handler/
-│   ├── service/
-│   └── libvirt/
-├── korvol/
-│   ├── cmd/
-│   ├── handler/
-│   ├── service/
-│   └── lvm/
-├── korcli/
-│   └── cmd/          # vm, vol, auth commands
-├── docker-compose.yml
-└── README.md
-```
+Full API documentation: #TODO
 
 ---
 
