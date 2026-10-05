@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./openkor_github_banner.png" alt="OpenKor — Open Cloud Infrastructure" width="720"/>
+  <img src="./github_banner.png" alt="OpenKor — Open Cloud Infrastructure" width="720"/>
 </p>
 
 <p align="center">
